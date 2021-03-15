@@ -1,7 +1,8 @@
 //chaced elemts
 
 const newsFeed = document.getElementById("newsFeed");
-const comments = document.getElementById("comments");
+const post = document.getElementById("post");
+const close = document.getElementById("close");
 
 // Get that hamburger menu cookin' //
 document.addEventListener("DOMContentLoaded", function() {
@@ -27,9 +28,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 newsFeed.addEventListener("click", function() {
-  console.log("You Clicked a post!");
-  post.style.display = "";
-  newsFeed.style.visibility = " hidden";
+  console.log("You Clicked The news feed");
+
+  newsFeed.style.display = "none";
+  post.style.display = "block";
+});
+
+close.addEventListener("click", function() {
+  newsFeed.style.display = "block";
+  post.style.display = "none";
 });
 
 // Smooth Anchor Scrolling
