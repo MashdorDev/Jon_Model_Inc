@@ -14,4 +14,8 @@ router.get("/show", function(req, res, next) {
   res.render("show");
 });
 
+router.post("/", function(req, res, next) {
+  res.render("submitted");
+});
+
 module.exports = router;

@@ -3,6 +3,7 @@
 const newsFeed = document.getElementById("newsFeed");
 const post = document.getElementById("post");
 const close = document.getElementById("close");
+const P = document.getElementById("P");
 
 // Get that hamburger menu cookin' //
 document.addEventListener("DOMContentLoaded", function() {
@@ -27,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-newsFeed.addEventListener("click", function() {
+P.addEventListener("click", function() {
   console.log("You Clicked The news feed");
 
   newsFeed.style.display = "none";
