@@ -13,7 +13,16 @@
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
   </head>
 
   <body>
@@ -52,37 +61,37 @@
         <div id="mobile-nav" class="navbar-menu">
           <div class="navbar-end">
             <div class="navbar-item">
-              <a class="navbar-item" href="#home">
+              <a class="navbar-item" href="/#home">
                 Home
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#about-me">
+              <a class="navbar-item" href="/#about-me">
                 About Me
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#community">
+              <a class="navbar-item" href="/#community">
                 Community
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#services">
+              <a class="navbar-item" href="/#services">
                 Services
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#skills">
+              <a class="navbar-item" href="/#skills">
                 Skills
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#my-work">
+              <a class="navbar-item" href="/#my-work">
                 My Work
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#contact">
+              <a class="navbar-item" href="/#contact">
                 Contact
               </a>
             </div>
@@ -138,11 +147,12 @@
   <article class="container is-widescreen">
     <% if (user) { %>
       <a  class="button is-danger" href="/logout" ><i class="material-icons left"><i class="fad fa-sign-out-alt fa-flip-horizontal"></i></i>Log Out</a>
+
       <p class="panel-heading">
         <%= user.name %>
         <figure class="media-left">
-          <p class="is-rounded">
-            <img src= "<%=user.picture%>">
+          <p>
+            <img class="is-rounded" src= "<%=user.picture%>">
           </p>
         </figure>
       </p>
@@ -158,7 +168,7 @@
     <div class="media-content">
       <div class="field">
         <p class="control">
-          <textarea name="content_post" class="textarea" placeholder="What's On your mind?..."></textarea>
+          <textarea name="content_post" class="textarea" placeholder="What's On your mind?..." required ></textarea>
           <br>
           <a ><i class="fad fa-upload fa-2x"></i></a>
           <a ><i class="fad fa-calendar-plus fa-2x"></i></a>
