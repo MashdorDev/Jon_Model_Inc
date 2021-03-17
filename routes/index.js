@@ -5,7 +5,7 @@ const passport = require("passport");
 
 /* GET home page. */
 router.get("/", function(req, res, next) {
-  res.render("index", { title: "Express" });
+  res.render("index");
 });
 
 router.get(
@@ -24,8 +24,10 @@ router.get(
 
 // OAuth logout route
 router.get("/logout", function(req, res) {
-  req.logout();
-  res.redirect("/");
+  req.session.destroy(function() {
+    res.clearCookie("connect.sid");
+    res.redirect("/show");
+  });
 });
 
 /* POST home page. */
@@ -37,16 +39,14 @@ router.post("/", function(req, res, next) {
 router.get("/post", communityCrtl.addPost);
 
 /* GET show page. */
-router.get("/show", isLoggedIn, function(req, res, next) {
-  res.render("show", { user: req.user });
-});
+router.get("/show", communityCrtl.show);
 
 /* POST show page. */
 router.post("/show", communityCrtl.addPost);
 
-function isLoggedIn(req, res, next) {
-  if (req.isAuthenticated()) return next();
-  res.redirect("/auth/google");
-}
+// function isLoggedIn(req, res, next) {
+//   if (req.isAuthenticated()) return next();
+//   res.redirect("/auth/google");
+// }
 
 module.exports = router;

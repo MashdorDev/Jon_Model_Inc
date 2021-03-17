@@ -4,10 +4,13 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 var multer = require("multer");
 
-const postSchema = new Schema({
-  content: [],
+const postSchema = new Schema(
+  {
+    content: [],
 
-  user: { type: Schema.Types.ObjectId, ref: "User" }
-});
+    user: { type: Schema.Types.ObjectId, ref: "User" }
+  },
+  { timestamps: true }
+);
 
 module.exports = mongoose.model("Post", postSchema);

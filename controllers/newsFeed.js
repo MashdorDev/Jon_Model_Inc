@@ -2,7 +2,8 @@ const Community = require("../models/community");
 const User = require("../models/user");
 
 module.exports = {
-  addPost
+  addPost,
+  show
 };
 
 async function addPost(req, res, next) {
@@ -12,20 +13,32 @@ async function addPost(req, res, next) {
       user: req.user.id
     });
 
-    console.log("Hey im logged at line 10 ");
-
     let content = { content: req.body.content_post };
-    console.log("Hey im logged at line 13");
 
-    console.log(content);
     res.redirect("/show");
   } catch (error) {
     console.log("The Error Is - " + error);
   }
+}
 
-  // console.log(req.body.value);
-  // Community.save(function(err) {
-  //   console.log(req.save);
-  //   res.redirect("/show");
-  // });
+function show(req, res) {
+  Community.find({})
+    .sort("-createdAt")
+    .exec(async function(err, post) {
+      let postsWithUsers = [];
+
+      for (let p of post) {
+        let userObj = await User.findById(p.user);
+
+        let obj = {
+          content: p.content,
+          date: p.createdAt,
+          userObj: userObj
+        };
+        console.log(obj);
+        postsWithUsers.push(obj);
+      }
+      res.render("show", { user: req.user, post: postsWithUsers });
+    });
+  // await post.execPopulate("user");
 }
