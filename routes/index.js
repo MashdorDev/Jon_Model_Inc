@@ -44,6 +44,8 @@ router.get("/show", communityCrtl.show);
 /* POST show page. */
 router.post("/show", communityCrtl.addPost);
 
+router.delete("/show/:id", communityCrtl.remove);
+
 // function isLoggedIn(req, res, next) {
 //   if (req.isAuthenticated()) return next();
 //   res.redirect("/auth/google");
