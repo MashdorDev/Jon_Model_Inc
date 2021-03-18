@@ -28,17 +28,17 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-P.addEventListener("click", function() {
-  console.log("You Clicked The news feed");
-
-  newsFeed.style.display = "none";
-  post.style.display = "block";
-});
-
-close.addEventListener("click", function() {
-  newsFeed.style.display = "block";
-  post.style.display = "none";
-});
+// P.addEventListener("click", function() {
+//   console.log("You Clicked The news feed");
+//
+//   newsFeed.style.display = "none";
+//   post.style.display = "block";
+// });
+//
+// close.addEventListener("click", function() {
+//   newsFeed.style.display = "block";
+//   post.style.display = "none";
+// });
 
 // Smooth Anchor Scrolling
 $(document).on("click", 'a[href^="#"]', function(event) {
