@@ -4,7 +4,8 @@ const User = require("../models/user");
 module.exports = {
   addPost,
   show,
-  remove
+  remove,
+  update
 };
 
 async function addPost(req, res, next) {
@@ -42,7 +43,6 @@ function show(req, res) {
       }
       res.render("show", { user: req.user, post: postsWithUsers });
     });
-  // await post.execPopulate("user");
 }
 
 function update(req, res) {
@@ -50,7 +50,7 @@ function update(req, res) {
   // Find the existing resource by ID
   Community.findByIdAndUpdate(
     // the id of the item to find
-    req.params.todoId,
+    req.params.id,
 
     // the change to be made. Mongoose will smartly combine your existing
     // document with this change, which allows for partial updates too

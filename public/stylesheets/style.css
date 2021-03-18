@@ -21,7 +21,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/381/1920/1080);
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)),
+  background: linear-gradient(rgb(130, 130, 130, 0.65), rgb(42, 44, 43, 0.65)),
     rgba(0, 0, 0, 0.55) url("../images/JonFirst.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -227,7 +227,7 @@ html {
 
 .main-content .section-color.services {
   padding: 100px;
-  background-color: #43485c;
+  background-color: #828282;
   color: white;
 }
 
@@ -256,7 +256,7 @@ html {
   height: 80px;
   line-height: 25px;
   text-align: center;
-  background: #1f2c6c;
+  background: rgba(2, 2, 2, 0.86);
   color: whitesmoke;
   padding-top: 2rem;
 }

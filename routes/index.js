@@ -30,9 +30,14 @@ router.get("/logout", function(req, res) {
   });
 });
 
-/* POST home page. */
+/* GET Submitted page. */
+router.get("/submitted", function(req, res, next) {
+  res.render("submitted");
+});
+
+/* POST contact us. */
 router.post("/", function(req, res, next) {
-  res.render("/submitted");
+  res.redirect("/submitted");
 });
 
 /* GET post page. */
@@ -45,6 +50,8 @@ router.get("/show", communityCrtl.show);
 router.post("/show", communityCrtl.addPost);
 
 router.delete("/show/:id", communityCrtl.remove);
+
+router.put("/show/:id", communityCrtl.update);
 
 // function isLoggedIn(req, res, next) {
 //   if (req.isAuthenticated()) return next();
