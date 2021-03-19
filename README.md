@@ -22,14 +22,14 @@ The first project I have done <a href="https://github.com/Ckrcok/Connect-Four-In
 
 Project Languages / Technologies -
 
-- CSS
-- HTML
-- JavaScript
-- Jquery
-- Bulma
-- Express
-- Nodejs
-- AOS
+- <a href="https://en.wikipedia.org/wiki/CSS">CSS </a>
+- <a href="https://en.wikipedia.org/wiki/HTML">HTML </a>
+- <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript </a>
+- <a href="https://en.wikipedia.org/wiki/JQuery">Jquery </a>
+- <a href="https://bulma.io/">Bulma </a>
+- <a href="https://expressjs.com/">Express </a>
+- <a href="https://nodejs.org">Nodejs </a>
+- <a href="https://michalsnik.github.io/aos/">AOS </a>
 
 Project progress -
 
