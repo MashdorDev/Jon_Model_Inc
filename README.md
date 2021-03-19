@@ -45,6 +45,8 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 - <a href="https://bulma.io/">Bulma </a>
 - <a href="https://expressjs.com/">Express </a>
 - <a href="https://nodejs.org">Nodejs </a>
+- <a href="https://mongoosejs.com/">Moongose</a>
+- <a href="https://www.mongodb.com/">MongoDB</a>
 - <a href="https://michalsnik.github.io/aos/">AOS </a>
 
 # Project progress -
