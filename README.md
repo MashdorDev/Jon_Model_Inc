@@ -36,7 +36,7 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 
 ##
 
-## Project Languages / Technologies -
+# Project Languages / Technologies -
 
 - <a href="https://en.wikipedia.org/wiki/CSS">CSS </a>
 - <a href="https://en.wikipedia.org/wiki/HTML">HTML </a>
@@ -47,7 +47,7 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 - <a href="https://nodejs.org">Nodejs </a>
 - <a href="https://michalsnik.github.io/aos/">AOS </a>
 
-## Project progress -
+# Project progress -
 
 - Basic HTML bones (Done)
 - Finish CSS look an feels (Done)
@@ -57,7 +57,7 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 
 ##
 
-## Project Goals Future -
+# Project Goals Future -
 
 - Option to subscribe to the website with email for a news latter
 - reply on comments on the community page
@@ -65,7 +65,7 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 
 ##
 
-## Website Screenshots -
+# Website Screenshots -
 
 # Home Screen
 
