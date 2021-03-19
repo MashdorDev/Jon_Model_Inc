@@ -41,7 +41,10 @@ router.post("/", function(req, res, next) {
 });
 
 /* GET post page. */
-router.get("/post", communityCrtl.addPost);
+router.get("/post", function(req, res, next) {
+  console.log("Hey Im here its hiiting the post route");
+  res.render("form");
+});
 
 /* GET show page. */
 router.get("/show", communityCrtl.show);

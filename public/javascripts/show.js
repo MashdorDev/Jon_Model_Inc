@@ -3,7 +3,8 @@
 const newsFeed = document.getElementById("newsFeed");
 const post = document.getElementById("post");
 const close = document.getElementById("close");
-const P = document.getElementById("P");
+const P = document.querySelectorAll("p");
+const edit = document.getElementsByClassName("edit");
 
 // Get that hamburger menu cookin' //
 document.addEventListener("DOMContentLoaded", function() {
@@ -28,17 +29,21 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-// P.addEventListener("click", function() {
-//   console.log("You Clicked The news feed");
+for (var i = 0; i < edit.length; i++) {
+  edit[i].addEventListener("click", function() {
+    console.log("You Clicked The edit!");
+  });
+}
+
+// function init() {
+//   for (i = 0; P.length; i++) {
+//     console.log("init is running!");
+//     // P[i].id = Math.floor(Math.random() * Math.floor(9999999));
+//   }
+// }
+
 //
-//   newsFeed.style.display = "none";
-//   post.style.display = "block";
-// });
-//
-// close.addEventListener("click", function() {
-//   newsFeed.style.display = "block";
-//   post.style.display = "none";
-// });
+// close.addEventListener("click", function() {});
 
 // Smooth Anchor Scrolling
 $(document).on("click", 'a[href^="#"]', function(event) {
@@ -73,3 +78,5 @@ $(window).on("load", function() {
   var Body = $("body");
   Body.addClass("preloader-site");
 });
+
+// init();

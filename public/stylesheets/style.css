@@ -225,18 +225,18 @@ html {
   }
 }
 
-.main-content .section-color.services {
+.main-content .section-color.features {
   padding: 100px;
   background-color: #828282;
   color: white;
 }
 
-.main-content .section-color.services .title,
-.main-content .section-color.services .subtitle {
+.main-content .section-color.features .title,
+.main-content .section-color.features .subtitle {
   color: white;
 }
 
-.main-content .section-color.services i {
+.main-content .section-color.features i {
   font-size: 3rem;
   padding: 20px;
 }

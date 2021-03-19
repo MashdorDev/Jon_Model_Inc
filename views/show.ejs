@@ -14,13 +14,21 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+
+
+
+
 
 
   </head>
@@ -141,13 +149,13 @@
 
 
 
-    <br><br><br><br>
+
 
 
     <article class="container is-widescreen">
       <% if (user) { %>
         <a  class="button is-danger" href="/logout" ><i class="material-icons left"><i class="fad fa-sign-out-alt fa-flip-horizontal"></i></i>Log Out</a>
-
+        <br><br><br><br>
         <p class="panel-heading">
           <%= user.name %>
           <figure class="media-left">
@@ -226,7 +234,7 @@
 
       <div class="media-content">
         <div class="content">
-          <p id="P">
+          <p >
             <strong><%= p.userObj.name  %></strong> <small>@<%= p.userObj.name  %></small> <small><%= p.date  %> </small>
             <br>
             <%= p.content %>
@@ -244,12 +252,15 @@
               <span class="icon is-small"><i class="fad fa-heart"></i></span>
             </a>
             <!-- Edit button -->
-            <form class="" action="/show/<%= p.id%>?_method=PUT" method="post">
+            <a class="level-item">
+              <span class="icon is-small"><i class="fad fa-edit"></i><textarea name="name" rows="1" cols="8" style="display:none;"><%= p.content %></textarea></span>
+            </a>
+            <!-- <form class="" action="/show/<%= p.id%>?_method=PUT" method="post">
               <a >
                 <button  >
                 <span class="icon is-small"><i class="fad fa-edit"></i></span>
               </button  >
-              </a>
+              </a> -->
             </form>
           </div>
         </nav>
