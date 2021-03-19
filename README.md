@@ -16,7 +16,7 @@ Jean Coutu, supermodel, influencer in the small animal kingdom and expert at wak
 
 ##
 
-This is my second project working on a web site deducted to my pet bunny Jean Coutu and his cuteness while displaying my skills as well his.
+This is my second project working on a web site deducted to my pet bunny Jean Coutu and his cuteness while displaying my skills as well his. Click <a href="https://jeanmodel.herokuapp.com/"> Here </a> to go to the website.
 
 You can check my first project I have done <a href="https://github.com/Ckrcok/Connect-Four-In-Space"> In this repository </a> Connect-Four In Space
 
