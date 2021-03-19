@@ -22,12 +22,12 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 
 # Table of Contents
 
-- [Project Languages / Technologies](#Project Languages/Technologies)
-- [Project Progress](#Project-progress)
-- [Project Goals Future](#Project-Goals-Future)
-- [Website Screenshots](#Website-Screenshots)
+- [Project Languages](#project-languages/technologies)
+- [Project Progress](#project-progress)
+- [Project Goals Future](#project-goals-future)
+- [Website Screenshots](#website-screenshots)
 
-  - [ Home Screen)](#Home-Screen)
+  - [ Home Screen](#Home-Screen)
   - [ About Me](#About-me)
   - [ Show Case](#Show-case)
   - [Community Screen](#community-Screen)
