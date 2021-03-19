@@ -16,11 +16,27 @@ Jean Coutu, supermodel, influencer in the small animal kingdom and expert at wak
 
 ##
 
-this is my second project working on a web site dedctded to my pet bunny Jean Coutu.
+This is my second project working on a web site deducted to my pet bunny Jean Coutu and his cuteness while displaying my skills as well his.
 
-The first project I have done <a href="https://github.com/Ckrcok/Connect-Four-In-Space">repository </a> -
+You can check my first project I have done <a href="https://github.com/Ckrcok/Connect-Four-In-Space"> In this repository </a> Connect-Four In Space
 
-Project Languages / Technologies -
+# Table of Contents
+
+- [Project Languages / Technologies](#Project Languages/Technologies)
+- [Project Progress](#Project-progress)
+- [Project Goals Future](#Project-Goals-Future)
+- [Website Screenshots](#Website-Screenshots)
+
+  - [ Home Screen)](#Home-Screen)
+  - [ About Me](#About-me)
+  - [ Show Case](#Show-case)
+  - [Community Screen](#community-Screen)
+
+- [FrameWire](#FrameWire)
+
+##
+
+## Project Languages / Technologies -
 
 - <a href="https://en.wikipedia.org/wiki/CSS">CSS </a>
 - <a href="https://en.wikipedia.org/wiki/HTML">HTML </a>
@@ -31,7 +47,7 @@ Project Languages / Technologies -
 - <a href="https://nodejs.org">Nodejs </a>
 - <a href="https://michalsnik.github.io/aos/">AOS </a>
 
-Project progress -
+## Project progress -
 
 - Basic HTML bones (Done)
 - Finish CSS look an feels (Done)
@@ -41,7 +57,7 @@ Project progress -
 
 ##
 
-Project Goals Future -
+## Project Goals Future -
 
 - Option to subscribe to the website with email for a news latter
 - reply on comments on the community page
@@ -49,9 +65,9 @@ Project Goals Future -
 
 ##
 
-# Website Screenshots -
+## Website Screenshots -
 
-### Home Screen
+# Home Screen
 
 [![](https://i.imgur.com/U5Tqbcb.png)](#)
 
@@ -63,7 +79,7 @@ Project Goals Future -
 
 [![](https://i.imgur.com/DZAgGKv.png)](#)
 
-### community Screen
+# community Screen
 
 [![](https://i.imgur.com/9QmYJXC.png)](#)
 [![](https://i.imgur.com/KTpgCgA.png)](#)
