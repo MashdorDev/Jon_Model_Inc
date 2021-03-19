@@ -48,6 +48,8 @@ You can check my first project I have done <a href="https://github.com/Ckrcok/Co
 - <a href="https://mongoosejs.com/">Moongose</a>
 - <a href="https://www.mongodb.com/">MongoDB</a>
 - <a href="https://michalsnik.github.io/aos/">AOS </a>
+- <a href="http://www.passportjs.org/">Passport </a>
+- <a href="https://www.google.com/search?q=Aouth+google&client=firefox-b-d&sxsrf=ALeKk00M_700X-MQqT9oP4wj_kjUUfiu1A%3A1616165054051&ei=vrhUYIPEAvOr5NoPtsOtqAw&oq=Aouth+google&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA06BwgAEEcQsAM6DQguELEDEIMBEAoQkwI6BwguELEDEAo6DQguELEDEMcBEKMCEAo6BAgAEAo6BwgAELEDEAo6CgguEMcBEK8BEAo6BAguEAo6BwguEAoQkwI6BggAEBYQHlCXIVj7J2D7KGgBcAF4AYAB1wKIAdULkgEHMS40LjEuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwiDm8f_y7zvAhXzFVkFHbZhC8UQ4dUDCAw&uact=5">Oauth </a>
 
 # Project progress -
 
