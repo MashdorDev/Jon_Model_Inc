@@ -1,7 +1,7 @@
 # 🐰🐰Welcome to Jean Couto Model web site🐰🐰
 
 <p align="center">
-  <a href="https://i.imgur.com/m72csjM.png">
+  <a href="https://jeanmodel.herokuapp.com">
     <img
       alt="connect-four Inspace"
       src="https://i.imgur.com/m72csjM.png"
