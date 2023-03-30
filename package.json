@@ -53,6 +53,10 @@
   "bugs": {
     "url": "https://github.com/jgthms/bulma-start/issues"
   },
+  "engines":{
+    "node": ">=14.20.1"
+
+  },
   "bundleDependencies": [],
   "deprecated": false,
   "description": "Start package for Bulma",
