@@ -9,8 +9,8 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
     "express-session": "^1.17.1",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
@@ -18,7 +18,7 @@
     "mongoose": "^5.12.0",
     "morgan": "~1.9.1",
     "multer": "^1.4.2",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-google-oauth": "^2.0.0"
   },
   "_from": "bulma-start@0.0.4",
@@ -53,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/jgthms/bulma-start/issues"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "deprecated": false,
   "description": "Start package for Bulma",
   "devDependencies": {
@@ -62,7 +62,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.8.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^8.0.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.0"
   },
